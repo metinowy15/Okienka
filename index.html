@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+   
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+    <script src="Script1.js"></script>
+
+
+    <title></title>
+</head>
+<body>
+
+    <div data-role="page" id="mainPage">
+
+        <div data-role="header"class="header">
+
+            <h2>Popup</h2>
+            
+        </div>
+        <div data-role="main" class="ui-content">
+
+            <h3>
+                <a href="#Pireneje" class="ui-btn ui-btn-inline ui-corner-all ui-shadow srodek">Pireneje</a>
+                <a href="#popOne" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all ui-icon-search ui-btn-icon-left"></a>
+            </h3>
+            <h3>
+                
+                <a href="#Tatry" class="ui-btn ui-btn-inline ui-corner-all ui-shadow srodek">Tatry</a>
+                <a href="#popTwo" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all  ui-icon-search ui-btn-icon-left"></a>
+            </h3>
+            <h3>
+            <a href="#Masuri" class="ui-btn ui-btn-inline ui-corner-all ui-shadow srodek">Masuri</a>
+            <a href="#popThree" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all ui-icon-search ui-btn-icon-left"></a>
+            </h3>
+        </div>
+
+        <div data-role="footer">
+            <h3>Piękne Widoki</h3>
+        </div>
+
+        <div data-role="popup" id="popOne">
+            <img src="j2.jpg" />
+            <p>sdasd</p>
+        </div>
+        <div data-role="popup" id="popTwo">
+            <img src="j1.jpg" />
+        </div>
+        <div data-role="popup" id="popThree">
+            <img src="j3.jpg" />
+        </div>
+    </div>
+
+
+
+
+    <div id="Pireneje" data-role="page">
+
+        <img src="jg2.jpg" />
+
+        <h3>
+            <a href="#mainPage" class="ui-btn ui-icon-back ui-btn-icon-left">Wróć</a>
+        </h3>
+
+    </div>
+    <div id="Tatry" data-role="page">
+
+        <img src="jg1.jpg" />
+
+        <h3>
+            <a href="#mainPage" class="ui-btn ui-icon-back ui-btn-icon-left">Wróć</a>
+        </h3>
+
+    </div>
+
+    <div id="Masuri" data-role="page">
+
+        <img src="jg3.jpg" />
+
+        <h3>
+            <a href="#mainPage" class="ui-btn ui-icon-back ui-btn-icon-left">Wróć</a>
+        </h3>
+
+    </div>
+
+
+</body>
+</html>
